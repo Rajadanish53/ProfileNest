@@ -1,0 +1,58 @@
+.main {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: #0f04d3;
+  height: 100%;
+}
+
+.main .photo {
+  width: 70%;
+  max-height: 360px;
+  object-fit: contain;
+}
+
+.main .author {
+  align-self: flex-start;
+  margin: 1rem;
+  font-size: 2vw;
+  font-weight: 400;
+}
+.main .body {
+  width: 85%;
+  text-align: justify;
+  margin: 0.3rem;
+  font-weight: 300;
+  font-size: 1.4vw;
+}
+.main .createdAt {
+  font-size: 1.4vw;
+  margin: 0.4rem;
+  font-weight: 300;
+}
+.main .title {
+  margin: 0.3rem;
+  font-size: 2vw;
+  font-weight: 600;
+  left: 50px;
+  bottom: 50px;
+}
+@media (max-width:430px){
+  .main{
+    width:80%
+  }
+  .author{
+    font-size: 1.4rem !important;
+  }
+  .title{
+    font-size: 1.4rem !important;
+  }
+  .body{
+    font-size: 1.2rem !important;
+  }
+}

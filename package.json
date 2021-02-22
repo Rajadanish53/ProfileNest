@@ -1,0 +1,26 @@
+{
+  "name": "mdsocial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "framer-motion": "^3.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
